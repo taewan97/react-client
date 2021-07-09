@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import "../styles/App.scss";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -15,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          이제 시작이야!
+          이제 시작이야! 아 실수 마스터에서 걍 변경했네
         </a>
       </header>
     </div>
